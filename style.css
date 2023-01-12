@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  position: relative;
+  width: auto;
+  height: auto;
+  background: #0f172a;
+}
+main {
+  margin-bottom: 130px;
+}
+hr {
+  border: 1px solid #cbd5e1;
+}
+
+.starter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 8px;
+  width: 44px;
+  height: 44px;
+}
+.vector1 {
+  width: 11px;
+  height: 14.67px;
+  border: 2.75px solid rgba(22, 184, 243, 1);
+}
+.vector2 {
+  width: 11px;
+  height: 22px;
+  border: 2.75px solid rgba(22, 184, 243, 1);
+}
+.vector3 {
+  width: 11px;
+  height: 29.33px;
+  border: 2.75px solid rgba(22, 184, 243, 1);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  gap: 121px;
+}
+.skillwill-blog {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 35px;
+  color: rgba(22, 184, 243, 1);
+  width: 178px;
+}
+.span-blue {
+  color: rgba(22, 184, 243, 1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+
+  width: 384px;
+  height: 48px;
+}
+nav a {
+  height: 28px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #f8fafc;
+  text-decoration: none;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0%;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 44px;
+  background: rgba(30, 41, 59, 0.4);
+  border-radius: 20px;
+  margin: 2% 14%;
+}
+.article2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 76px;
+  background: rgba(30, 41, 59, 0.4);
+  border-radius: 20px;
+  margin: 2% 14%;
+}
+.article3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 106px;
+  background: rgba(30, 41, 59, 0.4);
+  border-radius: 20px;
+  margin: 2% 14%;
+}
+h3 {
+  width: 113px;
+  height: 35px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #f8fafc;
+}
+p {
+  width: 711px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #cbd5e1;
+}
+.article1-div,
+.article2-div,
+.article3-div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+h1,
+h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  margin: 4% 14%;
+
+  color: #f8fafc;
+}
+
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #f8fafc;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+.article {
+  text-align: center;
+  background: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 10px;
+
+  background: #1e293b;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: auto;
+  width: 369px;
+}
+.posts-paragraph,
+.date {
+  font-size: 18px;
+  height: auto;
+  width: 369px;
+}
+.date {
+  color: #9ca3af;
+}
+.posts-paragraph {
+  margin-bottom: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 23px;
+  text-align: center;
+}
+.article img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.article::after {
+  clear: both;
+  display: table;
+  content: "";
+}
+.footer {
+  height: 136px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 45%;
+}
+span {
+  width: 331px;
+  height: 23px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #cbd5e1;
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+a:hover {
+  cursor: pointer;
+  color: purple;
+}
